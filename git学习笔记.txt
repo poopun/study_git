@@ -25,5 +25,7 @@ git init
 git init projectsname  项目名称
 
 提交版本
-git add file	加到暂存区
-git commit -m '版本信息'	提价
+git add . 表示把这个文件夹下面的所有文件夹都加入缓存区
+git add file	把要提交的文件添加到暂存区
+git commit -m '版本信息'	提交
+git log		查看版本
