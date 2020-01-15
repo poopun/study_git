@@ -1,0 +1,5 @@
+# 屏蔽src文件夹
+src/
+
+# pyrhon 屏蔽缓存文件 pyc pyd pyo 文件 不会添加到版本控制系统
+*.py[cod]

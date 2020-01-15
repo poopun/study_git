@@ -35,3 +35,36 @@ git status
 git status -s
 git status --short
 
+
+红色的?表示你有一个新的文件没有添加到暂存区间
+ 
+git log --pretty=oneline	只显示一行
+git log -p	显示版本直接的差别
+git log -5	显示最近五个版本
+git log -5 -p	
+git log --stat	查看大体的统计信息
+
+.getignore
+# 注释
+glob 模式匹配
+*匹配0或任意字符
+[0-9]
+/ 几位指定目录
+！取反
+？ 匹配任意一个字符
+[abc]
+
+
+git diff 版本对比
+git diff --staged 暂存区里面
+fit diff 新版本号 HEAD
+fit diff 老版本号 新版本号	老版本和新版本之间的区别
+
+fit diff 新版本号 老版本号	新版本和老版本之间的区别
+
+
+git rm 删除文件
+git restore -- file 
+git rm file
+git rm --cached file
+git rm *.pyc
