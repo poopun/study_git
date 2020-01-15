@@ -28,4 +28,10 @@ git init projectsname  项目名称
 git add . 表示把这个文件夹下面的所有文件夹都加入缓存区
 git add file	把要提交的文件添加到暂存区
 git commit -m '版本信息'	提交
-git log		查看版本
+git log		查看历史版本
+
+版本状态查看
+git status
+git status -s
+git status --short
+
