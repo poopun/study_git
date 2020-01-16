@@ -109,6 +109,8 @@ git remote 查看是否配置远程地址
 git remote -v  查看是否配置远程地址
 git remote add 
 git remote add study https://github.com/poopun/study_git.git   study为远程地址名称
+git remote show study 查看远程地址具体信息
+git remote rm study 删除名为study的地址
 
 git 远程操作
 git remote show study (study远程名称)
@@ -119,5 +121,15 @@ git pull study master master 是把远程的master与本地的进行合并，执
 
 git 远程修改
 git remote rename old_name new_name  重命名
+比如：git remote rename study origin  把远程地址名改为origin  
+
 git remote rm name  删除
+
+
+克隆远程项目：本地还没有远程仓库，想在远程复制下来。
+比如任职的员工想加入到项目开发中，只需要将项目拷贝下来。
+
+比如想把study 项目拷贝下来
+git clone url
+
 
