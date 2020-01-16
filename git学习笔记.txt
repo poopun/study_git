@@ -109,3 +109,15 @@ git remote 查看是否配置远程地址
 git remote -v  查看是否配置远程地址
 git remote add 
 git remote add study https://github.com/poopun/study_git.git   study为远程地址名称
+
+git 远程操作
+git remote show study (study远程名称)
+git push study master 本地推送到远程
+git fetch study  拉取(study远程名称)有分支用得比较多，需手动进行分支的合并	执行了这条命令本地还没有合并是因为还没进行合并
+git pull study 拉取(study远程名称)自动进行分支的合并
+git pull study master master 是把远程的master与本地的进行合并，执行这条就有文件下来了 
+
+git 远程修改
+git remote rename old_name new_name  重命名
+git remote rm name  删除
+
